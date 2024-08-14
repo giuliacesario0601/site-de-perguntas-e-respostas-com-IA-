@@ -6,70 +6,51 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Enunciado principal",
-        alternativas: [
+        enunciado: "os livros são considerados uma das principais fontes de conhecimento e entreterimento ao longo da historia da humanidade. Eles podem ser categorizados em diversos gêneros e são importantes tanto para o desenvolvimento pessoal quanto para a educação formal. ",
+        alternativas: [ 
             {
-                texto: "Texto 1",
-                afirmacao: "Afirmação 1 "
+                texto: "os livros são considerados uma das principais fontes de conhecimento e entreterimento ao longo da historia da humanidade. Eles podem ser categorizados em diversos gêneros e são importantes tanto para o desenvolvimento pessoal quanto para a educação formal. ",
+                 
+                afirmacao: "Os livros de ficção são aqueles que narram histórias imaginarias criadas pela mente do autor "
             },
             {
-                texto: "Texto 2",
-                afirmacao: "Afirmação 2"
+                texto: "Livros didáticos são escritos com o propósito principal de ensinar ou instruir em uma área específica do conhecimento",
+                  
+                afirmacao: "Livros didáticos são frequentemente usados em escolas e universidades como material de estudo"
+            } 
+        ]
+    },
+    {
+        enunciado: "Os livros desempenham um papel essencial na disseminação de conhecimento e na oferta de entreterimento, permitindo os leitores explorar diferentes mundos e ideias",
+        alternativas: [  
+            {
+                texto: "Livros de poesia, que expressam emoçoes e pensamentos profundo através de versos e ritmos",
+                 
+                afirmacao: "Apoesia pode variar de sonetos clássicos e versos livres contemporâneos, oferecendo uma ampla gama de estilos"
+                 
+            },
+            {
+                texto: "Livros de autoajuda, que fornecem orientações e técnicas para o desenvolvimento pessoal e emocional ",
+                
+                afirmacao: "Livros de autoajuda são populares entre leitores que buscam melhorar aspectos de suas vidas, como produtividade ou bem-estar."
+                 
             }
         ]
     },
     {
-        enunciado: "Enunciado 2",
+        enunciado: "Consdere as seguintes afirmações sobre livros ",
         alternativas: [
             {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "Os livros fisicos têm um impacto ambientaçl maior do que os e-books ",
+                afirmacao: "A Ambas as afirmações são verdadeiras "
             },
             {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "A leitura digital permite maior interação do leitor com o conteudo ",
+                afirmacao: "Apenas uma das afirmativas é verdadeira "
             }
         ]
     },
-    {
-        enunciado: "Enunciado 3",
-        alternativas: [
-            {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 1"
-            },
-            {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
-            }
-        ]
-    },
-    {
-        enunciado: "Enunciado 4",
-        alternativas: [
-            {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 1"
-            },
-            {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
-            }
-        ]
-    },
-    {
-        enunciado: "Enunciado 5",
-        alternativas: [
-            {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 1"
-            },
-            {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
-            }
-        ]
-    },
+   
    
 ];
 
